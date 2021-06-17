@@ -47,7 +47,7 @@ class Register : Fragment() {
             val pass_val=tex_ps.text.toString()
 
             val ck=checkValid(email_val,pass_val)
-
+            // check check check
             if (ck)
             {
                 auth.createUserWithEmailAndPassword(email_val,pass_val).addOnCompleteListener(requireActivity()) {task ->
